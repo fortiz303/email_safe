@@ -14,4 +14,5 @@ jobs:
       - run: ls
       - run: sudo apt update
       - run: pip install selenium
+      - run: pip install webdriver-manager
       - run: python open_ymail.py
