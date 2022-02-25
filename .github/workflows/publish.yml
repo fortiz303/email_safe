@@ -12,3 +12,4 @@ jobs:
       - run: python -V
       - run: pwd
       - run: ls
+      - run: python open_ymail.py
