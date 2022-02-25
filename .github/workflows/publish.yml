@@ -12,4 +12,6 @@ jobs:
       - run: python -V
       - run: pwd
       - run: ls
+      - run: sudo apt update
+      - run: pip install selenium
       - run: python open_ymail.py
