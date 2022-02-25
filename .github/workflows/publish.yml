@@ -13,6 +13,6 @@ jobs:
       - run: pwd
       - run: ls
       - run: sudo apt update
-      - run: pip install selenium
+      - run: pip3 install selenium
       - run: pip3 install webdriver-manager
       - run: python open_ymail.py
