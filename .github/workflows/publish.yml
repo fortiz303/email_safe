@@ -10,3 +10,5 @@ jobs:
       - uses: actions/checkout@v2
       - run: echo hi
       - run: python -V
+      - run: pwd
+      - run: ls
